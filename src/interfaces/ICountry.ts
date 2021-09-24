@@ -1,0 +1,32 @@
+export interface ICountry {
+    updated: number, //1631979253157,
+    country: string, //"Afghanistan",
+    countryInfo: {
+        _id: number,
+        iso2: string,
+        iso3: string,
+        lat: number,
+        long: number,
+        flag: string
+    },
+    cases: number,// 154536,
+    todayCases: number, //4,
+    deaths: number, //7197,
+    todayDeaths: number //2,
+    recovered: number, //122495,
+    todayRecovered: number, //415,
+    active: number, //24844,
+    critical: number, //1124,
+    casesPerOneMillion: number, //3865,
+    deathsPerOneMillion: number, // 180,
+    tests: number, //756764,
+    testsPerOneMillion: number, // 18925,
+    population: number, // 39986744,
+    continent: string, //"Asia",
+    oneCasePerPeople: number, //259,
+    oneDeathPerPeople: number, //5556,
+    oneTestPerPeople: number, //53,
+    activePerOneMillion: number, //621.31,
+    recoveredPerOneMillion: number, //3063.39,
+    criticalPerOneMillion: number, //28.11
+}
